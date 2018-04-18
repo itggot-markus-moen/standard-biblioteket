@@ -5,3 +5,4 @@ require_relative "cube.rb"
 
 require_relative "is_negative.rb"
 require_relative "is_even.rb"
+require_relative "is_odd.rb"
