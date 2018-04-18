@@ -15,3 +15,6 @@ require_relative "min_of_four.rb"
 require_relative "max_of_two.rb"
 require_relative "max_of_three.rb"
 require_relative "max_of_four.rb"
+
+require_relative "sum_to.rb"
+require_relative "factorial.rb"
