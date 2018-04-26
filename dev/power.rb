@@ -1,11 +1,25 @@
-# Public: Gives the number that came before the input.
+# Public: Takes two numbers and returns the potency.
 #
-# num - The Integer that will be the starting point.
+# base - The Integer that will be the base.
+# exponent - The Integer that will be the exponent.
 #
 # Examples
 #
-#   previous_number(101)
-#   # => 
+#   power(3, 2)
+#   # => 9
 #
-# Returns .
-def power()
+# Returns the potency of the given numbers.
+def power(base, exponent)
+    if exponent == 0
+        return 1
+    end 
+        
+    i = 0
+    pot = 1
+    while i < exponent
+        p pot
+        pot *= base
+        i += 1
+    end
+    return pot 
+end
