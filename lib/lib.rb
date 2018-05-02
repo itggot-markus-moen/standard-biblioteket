@@ -1,5 +1,6 @@
 require_relative "absolute.rb"
 require_relative "append.rb"
+require_relative "average.rb"
 require_relative "between.rb"
 require_relative "between_strict.rb"
 require_relative "concat.rb"
